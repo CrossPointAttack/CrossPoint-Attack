@@ -15,12 +15,12 @@ Our code is written in Python and Jupyter and includes detailed explanations. Ea
 
 ### Prerequisites
 
-To run our code, you will need Python and Jupyter installed on your computer.
+To run our code, you will need Python3 and Jupyter installed on your computer.
 
-We use the following library files:
+Please use pip3 to install the requirements:
 
 ```
-re,os,json,time,random,logging,itertools,numpy,pandas,geopy,networkx,datetime,matplotlib,multiprocessing
+pip3 install -r ./requirements.txt
 ```
 
 ### Installation
