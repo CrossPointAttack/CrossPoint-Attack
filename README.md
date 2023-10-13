@@ -4,8 +4,8 @@ Welcome to **CrossPoint Attacks**, a project that explores novel side channels f
 
 CrossPoint attacks leverage novel side channels named:
 
-1. **Statistical disparities**: This side channel leverages static inherent features of the Internet such as propagation delay and IP addresses.
-2. **Corrrelated congestion**: This side channel leverages dynamic features of the Internet, Congestion! to reveal hidden links. 
+1. **Statistical disparities**: This side channel leverages static inherent features of the Internet, such as propagation delay and IP addresses.
+2. **Correlated congestion**: This side channel leverages dynamic features of the Internet, Congestion! to reveal hidden links. 
 
 
 
@@ -15,7 +15,7 @@ Our code is written in Python and Jupyter and includes detailed explanations. Ea
 
 ### Prerequisites
 
-To run our code, you will need Python3 and Jupyter installed on your computer.
+You will need Python3 and Jupyter installed on your computer to run our code.
 
 Please use pip3 to install the requirements:
 
@@ -44,7 +44,7 @@ If you want to rebuild our experiments in your own environment, follow these ste
 
 1. Run the `bot_config` in each bot to generate attack_flow JSON files.
 2. Send these JSON files to the controller.
-3. In the controller, run SD attack to output the suspicious attack flow set.
+3. In the controller, run the SD attack to output the suspicious attack flow set.
 4. In the controller, find the control group and the attack flow set.
 5. Run `bash_ping` in control group bots and suspicious attack flow bots.
 6. Run `CrossPoint-CC` to find profitable links.
