@@ -1,11 +1,13 @@
 # CrossPoint Attacks
 
-Welcome to **CrossPoint Attacks**, a project that explores novel side channels for bypassing cutting-edge PTO defenses like Nethide (USENIX Security 2018) and EqualNet (NDSS 2022). Our attacks leverage statistical disparities and correlated congestion to reveal hidden links on the Internet.
+Welcome to **CrossPoint Attacks**, a project that explores novel side channels for bypassing escaping security defenses like Nethide (USENIX Security 2018) and EqualNet (NDSS 2022). Our attacks leverage statistical disparities and correlated congestion to reveal hidden links on the Internet.
 
-CrossPoint attacks leverage novel side channels named:
+**Use this tool to test your own network topology obfuscation schemes! Can they protect the topology well?**
 
-1. **Statistical disparities**: This side channel leverages static inherent features of the Internet, such as propagation delay and IP addresses.
-2. **Correlated congestion**: This side channel leverages dynamic features of the Internet, Congestion! to reveal hidden links. 
+CrossPoint attacks have the following ability:
+
+1. **Statistical disparities**: Leveraging static inherent features of the Internet, such as propagation delay and IP addresses, to test whether there are information leaks from here!
+2. **Correlated congestion**: Leveraging dynamic features of the Internet, Congestion! to reveal hidden links. We recommend you test in a real Internet environment! 
 
 
 
