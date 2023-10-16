@@ -2,7 +2,7 @@
 
 Welcome to **CrossPoint Attacks**, a project that explores novel side channels for bypassing escaping security defenses like Nethide (USENIX Security 2018) and EqualNet (NDSS 2022). Our attacks leverage statistical disparities and correlated congestion to reveal hidden links on the Internet.
 
-**Use this tool to test your own network topology obfuscation schemes! Does the virtual map leaks information?**
+**Use this tool to test your own network topology obfuscation schemes! Does the virtual map leak information?**
 
 CrossPoint attacks have the following ability:
 
