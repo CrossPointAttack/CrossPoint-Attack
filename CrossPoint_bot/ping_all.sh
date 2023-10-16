@@ -25,9 +25,9 @@
 # The experiment can be done with simulations and experiments. 
 # The only difference is in step 2: The method of how you transfer JSON bot config files. 
 
-# Using this you can run the bash_ping command on a bot to get the csv ping files.
+# you can run the bash_ping command on a bot to get the CSV ping files.
 # You should add your destination address in the @ip_list variable.
-# This shell is used for debugging, to check whether you can ping the dest.
+# This shell is used for debugging to check whether you can ping the dest.
 
 ip_list=(192.168.0.1 )
 for i in ${ip_list[@]}
